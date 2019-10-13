@@ -1,12 +1,13 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-
 const app = express();
-const urlencodedParser = bodyParser.urlencoded({ extended: false })
 
 const port = process.env.app_port || 3000;
 
 let contador = 0;
+
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
 
 app.use(function (req, res, next) {
     res.header('Access-Control-Allow-Origin', '*');
@@ -27,29 +28,8 @@ app.get('/main', function (req, res) {
     res.send('Main says: hello world! :)');
 })
 
-app.get('/registries', function (req, res) {
-    let response = [
-        {
-            "datetime": new Date(),
-            "tipo": "Comida",
-            "valor": "Banana",
-            "cantidad": 1
-        },
-        {
-            "datetime": new Date(),
-            "tipo": "Síntoma",
-            "valor": "Dolor de estómago",
-            "intensidad": 2
-        }
-    ]
-    res.send(response);
-}
-)
-
-app.post('/registries', urlencodedParser, function (req, res) { // routing para POST!
-  console.log(req.body); // para parsear se utiliza la libreria body-parser -> genera el tag body
-  res.send(); // los componentes del body se corresponden con los 'name' del html
-})
+var registriesApi = require('./registro-comidas-api/routes/registrosRestService');
+app.use('/registries', registriesApi);
 
 // app.get('/form', function (req, res) { // routing con archivo de vista
 //   res.sendFile(__dirname + '/views/index.html');
