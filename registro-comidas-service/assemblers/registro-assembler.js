@@ -3,7 +3,6 @@ function assemblyRegistry(jsonRegistros) {
     let registryList = [];
     jsonRegistros["entries"].forEach(r => {
         for (let k in r) {
-            // r.keys().forEach(k => {
             if (k === 'dishes') {
                 // itero sobre los platos y armo un registro por cada uno
                 r[k].forEach(d => {
@@ -44,12 +43,8 @@ function assemblyRegistry(jsonRegistros) {
             }
         }
     });
-    // console.log(":::::::::::::::::: Registry list: ")
-    // console.log(registryList);
 
     let username = jsonRegistros["username"];
-
-    console.log(username);
     return registryList;
 }
 
