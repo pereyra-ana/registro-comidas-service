@@ -3,8 +3,9 @@ var router = express.Router();
 
 let registrosService = require('../../registro-comidas-service/registrosService');
 
-router.get('/', function (req, res) {
-    let response = registrosService.getAll();
+router.post('/filter', function (req, res) {
+    console.log(req.body);
+    let response = registrosService.getAll(req.body.startDate, req.body.endDate);
     res.send(response);
 }
 )
