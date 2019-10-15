@@ -86,71 +86,27 @@ function connectDB() {
 
 connectDB();
 
-let data = [
-    {
-        // "datetime": "2019-10-15T01:22:42.136Z",
-        "datetime": "2019-10-10T09:58:18-0300",
-        "tipo": "Comida",
-        "valor": "Banana",
-        "cantidad": 1
-    },
-    {
-        "datetime": "2019-10-10T08:15:27-0300",
-        "tipo": "Síntoma",
-        "valor": "Dolor de estómago",
-        "intensidad": 2
-    },
-    {
-        "datetime": "2019-10-09T15:00:32-0300",
-        "tipo": "Comida",
-        "valor": "Banana",
-        "cantidad": 1
-    },
-    {
-        "datetime": "2019-10-09T11:19:11-0300",
-        "tipo": "Síntoma",
-        "valor": "Dolor de estómago",
-        "intensidad": 2
-    },
-    {
-        "datetime": "2019-10-09T08:30:20-0300",
-        "tipo": "Comida",
-        "valor": "Banana",
-        "cantidad": 1
-    },
-    {
-        "datetime": "2019-10-07T15:34:20-0300",
-        "tipo": "Síntoma",
-        "valor": "Dolor de estómago",
-        "intensidad": 2
-    },
-    {
-        "datetime": "2019-10-06T14:20:49-0300",
-        "tipo": "Misceláneo",
-        "valor": "Zumba"
-    },
-];
-
-function getAll(start, end) {
-    MRegistries.find({ datetime : {$gt: start} }, (err, registries) => {
-        if (err) return console.log("Error en lectura de usuario");
+async function getAll(start, end) {
+    return await MRegistries.find({ datetime: { $gt: start }, datetime : { $lt: end } }, (err, registries) => {
+        if (err) throw new Error(err);
         console.log("===> Consulta todos");
         registries.forEach(u => {
             console.log(u)
         })
     })
-    return data.filter(d => Date.parse(start) <= Date.parse(d.datetime) && Date.parse(d.datetime) <= Date.parse(end));
 }
 
-function addRegistries(registries) {
-    console.log(registries);
-    // registries.array.forEach(r => {
-        let writeRegistry = new MRegistries(registries);
+async function addRegistries(registries) {
+    // console.log(registries);
+    return await registries.forEach(r => {
+        let writeRegistry = new MRegistries(r);
+        console.log("Insertando registro: ");
+        console.log(writeRegistry);
         writeRegistry.save((err) => {
-            if (err) return console.log("Error en escritura de usuario");
+            if (err) return console.log("Error en escritura de registro");
             console.log("Escritura exitosa!");
         })
-    // });
+    });
 }
 
 module.exports = {

@@ -1,14 +1,17 @@
 let registrosDao = require('../registro-comida-dao/registrosDao');
+let registroAssembler = require('./registro-assembler');
 
-function getAll(start, end) {
+async function getAll(start, end) {
     console.log("start:" + start + " end: " + end);
-    let all = registrosDao.getAll(start, end)
+    let all = await registrosDao.getAll(start, end)
     console.log(all);
     return all;
 }
 
-function addRegistries(registries) {
-    registrosDao.addRegistries(registries);
+async function addRegistries(registries) {
+    let r = registroAssembler.assemblyRegistry(registries);
+    resp = await registrosDao.addRegistries(r);
+    return resp;
 }
 
 module.exports = {

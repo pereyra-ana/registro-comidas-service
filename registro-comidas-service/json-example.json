@@ -1,0 +1,1236 @@
+{
+    "entries": [
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Banana",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Te",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "datetime": "2019-10-10T09:58:18-0300",
+            "situation_isOnTheWay": false,
+            "title": "Desayuno",
+            "notes": "",
+            "category": "meal",
+            "subCategory": "breakfast",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [],
+            "situation_isStressed": false,
+            "drinks": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Te",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "datetime": "2019-10-10T08:15:27-0300",
+            "situation_isOnTheWay": false,
+            "title": "Desayuno",
+            "notes": "",
+            "category": "meal",
+            "subCategory": "breakfast",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Milanesa de pollo",
+                    "ingredients": [],
+                    "type": ""
+                },
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Arroz yamani con verduras (berenjena, zapallito, zanahoria, morron rojo)",
+                    "ingredients": [],
+                    "type": ""
+                },
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Gelatina",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Agua",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "datetime": "2019-10-09T22:43:55-0300",
+            "situation_isOnTheWay": false,
+            "title": "Cena",
+            "notes": "",
+            "category": "meal",
+            "subCategory": "dinner",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Yogur vegano de frutilla con copos (medio pote)",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [],
+            "datetime": "2019-10-09T20:06:05-0300",
+            "situation_isOnTheWay": false,
+            "title": "Colación",
+            "notes": "",
+            "category": "meal",
+            "subCategory": "snack",
+            "situation_isCalmly": false
+        },
+        {
+            "category": "symptom",
+            "title": "Dolor de panza",
+            "notes": "",
+            "intensity": 1,
+            "datetime": "2019-10-09T19:08:18-0300"
+        },
+        {
+            "category": "symptom",
+            "title": "Acidez",
+            "notes": "",
+            "intensity": 2,
+            "datetime": "2019-10-09T19:08:04-0300"
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Banana",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [],
+            "datetime": "2019-10-09T15:00:32-0300",
+            "situation_isOnTheWay": false,
+            "title": "Colación",
+            "notes": "",
+            "category": "meal",
+            "subCategory": "snack",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Ensalada de tomate (poquito) huevo palta pollo zanahoria y fideos con aceite de oliva",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Agua 0.5 lt",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "datetime": "2019-10-09T13:17:43-0300",
+            "situation_isOnTheWay": false,
+            "title": "Almuerzo",
+            "notes": "",
+            "category": "meal",
+            "subCategory": "lunch",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [],
+            "situation_isStressed": false,
+            "drinks": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Agua 0.5 lt",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "datetime": "2019-10-09T11:48:25-0300",
+            "situation_isOnTheWay": false,
+            "title": "Bebida",
+            "notes": "",
+            "category": "meal",
+            "subCategory": "drink",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Banana",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [],
+            "datetime": "2019-10-09T11:19:11-0300",
+            "situation_isOnTheWay": false,
+            "title": "Colación",
+            "notes": "",
+            "category": "meal",
+            "subCategory": "snack",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [],
+            "situation_isStressed": false,
+            "drinks": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Te",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "datetime": "2019-10-09T10:05:32-0300",
+            "situation_isOnTheWay": false,
+            "title": "Desayuno",
+            "notes": "",
+            "category": "meal",
+            "subCategory": "breakfast",
+            "situation_isCalmly": false
+        },
+        {
+            "category": "symptom",
+            "title": "Dolor mortal en la boca del estomago, pecho y espalda",
+            "notes": "",
+            "intensity": 2,
+            "datetime": "2019-10-09T09:24:25-0300"
+        },
+        {
+            "dishes": [],
+            "situation_isStressed": false,
+            "drinks": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Te",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "datetime": "2019-10-09T08:30:20-0300",
+            "situation_isOnTheWay": false,
+            "title": "Desayuno",
+            "notes": "",
+            "category": "meal",
+            "subCategory": "breakfast",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Fideos con aceite, huevo “frito” en fritolim, esparragos y queso rallado",
+                    "ingredients": [],
+                    "type": ""
+                },
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Gelatina",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Agua",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "datetime": "2019-10-08T21:33:10-0300",
+            "situation_isOnTheWay": false,
+            "title": "Cena",
+            "notes": "",
+            "category": "meal",
+            "subCategory": "dinner",
+            "situation_isCalmly": false
+        },
+        {
+            "category": "miscellaneous",
+            "title": "Zumba!",
+            "icon": 1,
+            "notes": "",
+            "datetime": "2019-10-08T19:00:31-0300"
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Media Banana",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [],
+            "datetime": "2019-10-08T18:06:39-0300",
+            "situation_isOnTheWay": false,
+            "title": "Colación",
+            "notes": "",
+            "category": "meal",
+            "subCategory": "snack",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Tita",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [],
+            "datetime": "2019-10-08T16:07:30-0300",
+            "situation_isOnTheWay": false,
+            "title": "Colación",
+            "notes": "",
+            "category": "meal",
+            "subCategory": "snack",
+            "situation_isCalmly": false
+        },
+        {
+            "category": "miscellaneous",
+            "title": "Buscapina fem",
+            "icon": 4,
+            "notes": "",
+            "datetime": "2019-10-08T14:20:52-0300"
+        },
+        {
+            "category": "symptom",
+            "title": "Nauseas",
+            "notes": "",
+            "intensity": 1,
+            "datetime": "2019-10-08T14:11:17-0300"
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Pechuga de pollo en cubitos salteada con salsa de soja y pure de calabaza con queso blanco",
+                    "ingredients": [],
+                    "type": ""
+                },
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Pera",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Agua",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "datetime": "2019-10-08T13:12:00-0300",
+            "situation_isOnTheWay": false,
+            "title": "Almuerzo",
+            "notes": "",
+            "category": "meal",
+            "subCategory": "lunch",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Tostadas con queso blanco 2",
+                    "ingredients": [],
+                    "type": ""
+                },
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Banana",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [],
+            "datetime": "2019-10-08T10:20:59-0300",
+            "situation_isOnTheWay": false,
+            "title": "Desayuno",
+            "notes": "",
+            "category": "meal",
+            "subCategory": "breakfast",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [],
+            "situation_isStressed": false,
+            "drinks": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Te",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "datetime": "2019-10-08T09:00:46-0300",
+            "situation_isOnTheWay": false,
+            "title": "Desayuno",
+            "notes": "",
+            "category": "meal",
+            "subCategory": "breakfast",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Milanesa de carne con pure de zapallo y queso blanco",
+                    "ingredients": [],
+                    "type": ""
+                },
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Bonobon de chocolate negro",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Agua",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "datetime": "2019-10-07T22:33:14-0300",
+            "situation_isOnTheWay": false,
+            "title": "Cena",
+            "notes": "",
+            "category": "meal",
+            "subCategory": "dinner",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Copos con leche deslactosada",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [],
+            "datetime": "2019-10-07T19:30:03-0300",
+            "situation_isOnTheWay": false,
+            "title": "Colación",
+            "notes": "",
+            "category": "meal",
+            "subCategory": "snack",
+            "situation_isCalmly": false
+        },
+        {
+            "category": "miscellaneous",
+            "title": "Buscapina",
+            "icon": 4,
+            "notes": "",
+            "datetime": "2019-10-07T16:26:22-0300"
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Vainillas 3",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [],
+            "datetime": "2019-10-07T15:34:20-0300",
+            "situation_isOnTheWay": false,
+            "title": "Colación",
+            "notes": "",
+            "category": "meal",
+            "subCategory": "snack",
+            "situation_isCalmly": false
+        },
+        {
+            "category": "symptom",
+            "title": "Dolor de estomago",
+            "notes": "",
+            "intensity": 1,
+            "datetime": "2019-10-07T15:31:30-0300"
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Tarta de atun, morron, cebolla, zanahoria, papa rallada y huevo - 1 porcion",
+                    "ingredients": [],
+                    "type": ""
+                },
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Banana",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Agua",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "datetime": "2019-10-07T14:18:01-0300",
+            "situation_isOnTheWay": false,
+            "title": "Almuerzo",
+            "notes": "",
+            "category": "meal",
+            "subCategory": "lunch",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Galletitas de agua 6-7",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [],
+            "datetime": "2019-10-07T11:30:04-0300",
+            "situation_isOnTheWay": false,
+            "title": "Colación",
+            "notes": "",
+            "category": "meal",
+            "subCategory": "snack",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Banana",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Te",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "datetime": "2019-10-07T10:20:24-0300",
+            "situation_isOnTheWay": false,
+            "title": "Desayuno",
+            "notes": "",
+            "category": "meal",
+            "subCategory": "breakfast",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [],
+            "situation_isStressed": false,
+            "drinks": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Te",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "datetime": "2019-10-07T08:20:14-0300",
+            "situation_isOnTheWay": false,
+            "title": "Desayuno",
+            "notes": "",
+            "category": "meal",
+            "subCategory": "breakfast",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Tita",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [],
+            "datetime": "2019-10-06T23:48:59-0300",
+            "situation_isOnTheWay": false,
+            "title": "Colación",
+            "notes": "",
+            "category": "meal",
+            "subCategory": "snack",
+            "situation_isCalmly": false
+        },
+        {
+            "category": "symptom",
+            "title": "Dolor de estomago, hinchazón en la panza",
+            "notes": "",
+            "intensity": 2,
+            "datetime": "2019-10-06T23:11:13-0300"
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Tarta de atun, morron, cebolla, zanahoria, papa rallada y huevo - 1 porcion",
+                    "ingredients": [],
+                    "type": ""
+                },
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Ensalada (pequeña) de tomate cherry, espárragos y repollo",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Agua",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "datetime": "2019-10-06T22:25:12-0300",
+            "situation_isOnTheWay": false,
+            "title": "Cena",
+            "notes": "",
+            "category": "meal",
+            "subCategory": "dinner",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Banana",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [],
+            "datetime": "2019-10-06T19:59:11-0300",
+            "situation_isOnTheWay": false,
+            "title": "Colación",
+            "notes": "",
+            "category": "meal",
+            "subCategory": "snack",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Picada (salame, queso pategras, queso roquefort, mozarellas en aceite de oliva, pan",
+                    "ingredients": [],
+                    "type": ""
+                },
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Lomo a la crema de champignon con pure",
+                    "ingredients": [],
+                    "type": ""
+                },
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Bonobon",
+                    "ingredients": [],
+                    "type": ""
+                },
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Dos frutillas con crema",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Coca",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "datetime": "2019-10-06T14:20:49-0300",
+            "situation_isOnTheWay": false,
+            "title": "Almuerzo",
+            "notes": "",
+            "category": "meal",
+            "subCategory": "lunch",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Banana",
+                    "ingredients": [],
+                    "type": ""
+                },
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Tostadas con queso blanco 1",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Te",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "datetime": "2019-10-06T09:49:07-0300",
+            "situation_isOnTheWay": false,
+            "title": "Desayuno",
+            "notes": "",
+            "category": "meal",
+            "subCategory": "breakfast",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Supremitas de pollo 3",
+                    "ingredients": [],
+                    "type": ""
+                },
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Ensalada de tomate y palta",
+                    "ingredients": [],
+                    "type": ""
+                },
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Rodajas de calabaza con queso",
+                    "ingredients": [],
+                    "type": ""
+                },
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Tita",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Agua",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "datetime": "2019-10-05T22:18:39-0300",
+            "situation_isOnTheWay": false,
+            "title": "Cena",
+            "notes": "",
+            "category": "meal",
+            "subCategory": "dinner",
+            "situation_isCalmly": false
+        },
+        {
+            "category": "symptom",
+            "title": "Nauseas, hinchazon de estomago, dolor de garganta, quemazon en la boca del estomago",
+            "notes": "",
+            "intensity": 3,
+            "datetime": "2019-10-05T16:35:54-0300"
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Tarta de semillas espinaca y queso parmesano 1/2",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [],
+            "datetime": "2019-10-05T13:58:05-0300",
+            "situation_isOnTheWay": false,
+            "title": "Almuerzo",
+            "notes": "",
+            "category": "meal",
+            "subCategory": "lunch",
+            "situation_isCalmly": false
+        },
+        {
+            "category": "miscellaneous",
+            "title": "Pilates",
+            "icon": 1,
+            "notes": "",
+            "datetime": "2019-10-05T12:00:28-0300"
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Banana",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [],
+            "datetime": "2019-10-05T11:24:01-0300",
+            "situation_isOnTheWay": false,
+            "title": "Colación",
+            "notes": "",
+            "category": "meal",
+            "subCategory": "snack",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [],
+            "situation_isStressed": false,
+            "drinks": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Te",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "datetime": "2019-10-05T09:20:51-0300",
+            "situation_isOnTheWay": false,
+            "title": "Desayuno",
+            "notes": "",
+            "category": "meal",
+            "subCategory": "breakfast",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Fideos con aceite y huevo “frito” con fritolim",
+                    "ingredients": [],
+                    "type": ""
+                },
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Media pera",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Agua",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "datetime": "2019-10-04T21:49:18-0300",
+            "situation_isOnTheWay": false,
+            "title": "Cena",
+            "notes": "",
+            "category": "meal",
+            "subCategory": "dinner",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Tostadas con queso blanco 1",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [],
+            "datetime": "2019-10-04T21:15:33-0300",
+            "situation_isOnTheWay": false,
+            "title": "Colación",
+            "notes": "",
+            "category": "meal",
+            "subCategory": "snack",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Media banana",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [],
+            "datetime": "2019-10-04T19:13:53-0300",
+            "situation_isOnTheWay": false,
+            "title": "Colación",
+            "notes": "",
+            "category": "meal",
+            "subCategory": "snack",
+            "situation_isCalmly": false
+        },
+        {
+            "category": "miscellaneous",
+            "title": "Yoga!",
+            "icon": 1,
+            "notes": "",
+            "datetime": "2019-10-04T17:32:29-0300"
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Copos con leche deslactosada y media banana",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [],
+            "datetime": "2019-10-04T16:44:35-0300",
+            "situation_isOnTheWay": false,
+            "title": "Colación",
+            "notes": "",
+            "category": "meal",
+            "subCategory": "snack",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Porcion pequeña de tarta de espinaca 1/2",
+                    "ingredients": [],
+                    "type": ""
+                },
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Ensalada de Tomate con aceto",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Agua",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "datetime": "2019-10-04T13:46:48-0300",
+            "situation_isOnTheWay": false,
+            "title": "Almuerzo",
+            "notes": "",
+            "category": "meal",
+            "subCategory": "lunch",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Banana",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [],
+            "datetime": "2019-10-04T11:45:49-0300",
+            "situation_isOnTheWay": false,
+            "title": "Colación",
+            "notes": "",
+            "category": "meal",
+            "subCategory": "snack",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [],
+            "situation_isStressed": false,
+            "drinks": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Te",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "datetime": "2019-10-04T10:44:35-0300",
+            "situation_isOnTheWay": false,
+            "title": "Desayuno",
+            "notes": "",
+            "category": "meal",
+            "subCategory": "breakfast",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Tita",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [],
+            "datetime": "2019-10-03T23:29:08-0300",
+            "situation_isOnTheWay": false,
+            "title": "Colación",
+            "notes": "",
+            "category": "meal",
+            "subCategory": "snack",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Costillitas de cerdo con pure de papas con leche deslactosada",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Agua",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "datetime": "2019-10-03T22:20:57-0300",
+            "situation_isOnTheWay": false,
+            "title": "Cena",
+            "notes": "",
+            "category": "meal",
+            "subCategory": "dinner",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Tostadas con queso blanco 1",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [],
+            "datetime": "2019-10-03T20:43:02-0300",
+            "situation_isOnTheWay": false,
+            "title": "Colación",
+            "notes": "",
+            "category": "meal",
+            "subCategory": "snack",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Banana",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [],
+            "datetime": "2019-10-03T17:25:28-0300",
+            "situation_isOnTheWay": false,
+            "title": "Colación",
+            "notes": "",
+            "category": "meal",
+            "subCategory": "snack",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Ensalada de tomate Zanahoria atun arroz y huevo con limon",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Agua",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "datetime": "2019-10-03T13:12:29-0300",
+            "situation_isOnTheWay": false,
+            "title": "Almuerzo",
+            "notes": "",
+            "category": "meal",
+            "subCategory": "lunch",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [],
+            "situation_isStressed": false,
+            "drinks": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Te",
+                    "ingredients": [],
+                    "type": ""
+                }
+            ],
+            "datetime": "2019-10-03T09:01:20-0300",
+            "situation_isOnTheWay": false,
+            "title": "Desayuno",
+            "notes": "",
+            "category": "meal",
+            "subCategory": "breakfast",
+            "situation_isCalmly": false
+        }
+    ],
+    "username": "Ana"
+}

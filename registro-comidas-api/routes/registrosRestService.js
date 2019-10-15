@@ -3,17 +3,17 @@ var router = express.Router();
 
 let registrosService = require('../../registro-comidas-service/registrosService');
 
-router.post('/filter', function (req, res) {
+router.post('/filter', async function (req, res) {
     console.log(req.body);
-    let response = registrosService.getAll(req.body.startDate, req.body.endDate);
+    let response = await registrosService.getAll(req.body.startDate, req.body.endDate);
     res.send(response);
 }
 )
 
-router.post('/', function (req, res) { // routing para POST!
-    console.log(req); // para parsear se utiliza la libreria body-parser -> genera el tag body
-    registrosService.addRegistries(req.body);
-    res.send(); // los componentes del body se corresponden con los 'name' del html
+router.post('/', async function (req, res) { // routing para POST!
+    // console.log(req); // para parsear se utiliza la libreria body-parser -> genera el tag body
+    let r = await registrosService.addRegistries(req.body);
+    res.send(r); // los componentes del body se corresponden con los 'name' del html
 })
 
 // router.get('/form', function (req, res) { // routing con archivo de vista
