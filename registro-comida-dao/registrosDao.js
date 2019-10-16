@@ -30,13 +30,13 @@ connectDB();
 
 // dao methods
 async function getAll(start, end) {
-    return await MRegistries.find({ datetime: { $gt: start }, datetime: { $lt: end } }, (err, registries) => {
+    return await MRegistries.find({ datetime: { $gte: start , $lte: end } }, (err, registries) => {
         if (err) throw new Error(err);
         console.log("===> Consulta todos");
         registries.forEach(u => {
-            console.log(u)
+            console.log(u.datetime)
         })
-    })
+    }).sort({ datetime : 1 })
 }
 
 async function addRegistries(registries) {

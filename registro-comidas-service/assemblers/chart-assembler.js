@@ -19,12 +19,14 @@ function getDataForChartType(chartType, data) {
                             dataForChart["amounts"].push(1);
                         }
                     } else {
-                        dataForChart["amounts"][index] = dataForChart["amounts"][index] + 1;
+                        if (e.cantidad != null && e.cantidad != undefined) {
+                            dataForChart["amounts"][index] = dataForChart["amounts"][index] + e.cantidad;
+                        } else {
+                            dataForChart["amounts"][index] = dataForChart["amounts"][index] + 1;
+                        }
                     }
                 }
             }
-            // dataForChart["labels"] = ["banana", "pera", "tomate", "zapallo"];
-            // dataForChart["amounts"] = [1, 5, 6, 2];
             break;
         case 'tipoAlimentoVsTotal':
             break;
