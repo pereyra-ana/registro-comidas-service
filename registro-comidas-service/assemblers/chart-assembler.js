@@ -5,7 +5,7 @@ function getDataForChartType(chartType, data) {
         case 'alimentosVsTotal':
             dataForChart["labels"] = [];
             dataForChart["amounts"] = [];
-            console.log(data);
+            // console.log(data);
             for (let i = 0; i < data.length; i++) {
                 const e = data[i];
 

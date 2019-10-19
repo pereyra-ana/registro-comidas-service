@@ -4,7 +4,6 @@ var router = express.Router();
 let registrosService = require('../../registro-comidas-service/registrosService');
 
 router.post('/filter', async function (req, res) {
-    console.log(req.body);
     let response = await registrosService.getAll(req.body.startDate, req.body.endDate);
     res.send(response);
 }

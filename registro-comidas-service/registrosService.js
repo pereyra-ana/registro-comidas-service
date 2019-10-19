@@ -4,7 +4,7 @@ let registroAssembler = require('./assemblers/registro-assembler');
 async function getAll(start, end) {
     console.log("start:" + start + " end: " + end);
     let all = await registrosDao.getAll(start, end)
-    console.log(all);
+    // console.log(all);
     return all;
 }
 
