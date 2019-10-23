@@ -10,7 +10,7 @@ function assemblyRegistry(jsonRegistros) {
                     newRegistry.tipo = 'comida';
                     newRegistry.valor = d.title.split("|")[0];
                     newRegistry.datetime = r.datetime;
-                    newRegistry.cantidad = d.title.split("|")[1];
+                    newRegistry.cantidad = d.title.split("|")[1] ? d.title.split("|")[1] : 1;
                     registryList.push(newRegistry);
                 });
             }
@@ -21,7 +21,7 @@ function assemblyRegistry(jsonRegistros) {
                     newRegistry.tipo = 'bebida';
                     newRegistry.valor = d.title.split("|")[0];
                     newRegistry.datetime = r.datetime;
-                    newRegistry.cantidad = d.title.split("|")[1];
+                    newRegistry.cantidad = d.title.split("|")[1] ? d.title.split("|")[1] : 1;
                     registryList.push(newRegistry);
                 });
             }
