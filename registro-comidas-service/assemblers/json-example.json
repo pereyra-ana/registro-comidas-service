@@ -568,7 +568,7 @@
                 {
                     "amount": 0,
                     "amount_unit": "",
-                    "title": "Fideos con manteca, queso blanco, leche, queso y huevo 'frito' con fritolim",
+                    "title": "Fideos con manteca, queso blanco, leche, queso y huevo",
                     "ingredients": [],
                     "type": ""
                 },
@@ -823,7 +823,7 @@
                 {
                     "amount": 0,
                     "amount_unit": "",
-                    "title": "Milanesa de pollo",
+                    "title": "Milanesas de pollo",
                     "ingredients": [],
                     "type": ""
                 },
@@ -2424,7 +2424,7 @@
                 {
                     "amount": 0,
                     "amount_unit": "",
-                    "title": "Fideos con aceite, huevo “frito” en fritolim, esparragos y queso rallado",
+                    "title": "Fideos con aceite, huevo, esparragos y queso rallado",
                     "ingredients": [],
                     "type": ""
                 },
@@ -2609,7 +2609,7 @@
                 {
                     "amount": 0,
                     "amount_unit": "",
-                    "title": "Milanesa de carne",
+                    "title": "Milanesas de peceto",
                     "ingredients": [],
                     "type": ""
                 },
@@ -2842,7 +2842,7 @@
                 {
                     "amount": 0,
                     "amount_unit": "",
-                    "title": "Ensalada (pequeña) de tomate cherry, espárragos y repollo",
+                    "title": "Ensalada (pequeña) de tomate cherry, esparragos y repollo",
                     "ingredients": [],
                     "type": ""
                 }
@@ -2953,7 +2953,7 @@
                 {
                     "amount": 0,
                     "amount_unit": "",
-                    "title": "Tostadas con queso blanco|1",
+                    "title": "Tostadas con queso blanco",
                     "ingredients": [],
                     "type": ""
                 }
@@ -3104,7 +3104,7 @@
                 {
                     "amount": 0,
                     "amount_unit": "",
-                    "title": "Fideos con aceite y huevo “frito” con fritolim",
+                    "title": "Fideos con aceite y huevo",
                     "ingredients": [],
                     "type": ""
                 },
@@ -3139,7 +3139,7 @@
                 {
                     "amount": 0,
                     "amount_unit": "",
-                    "title": "Tostadas con queso blanco|1",
+                    "title": "Tostadas con queso blanco",
                     "ingredients": [],
                     "type": ""
                 }
@@ -3159,7 +3159,7 @@
                 {
                     "amount": 0,
                     "amount_unit": "",
-                    "title": "banana|0,5",
+                    "title": "Banana|0,5",
                     "ingredients": [],
                     "type": ""
                 }
@@ -3213,7 +3213,7 @@
                 {
                     "amount": 0,
                     "amount_unit": "",
-                    "title": "Porcion pequeña de tarta de espinaca|0,5",
+                    "title": "Tarta de espinaca|0,5",
                     "ingredients": [],
                     "type": ""
                 },
@@ -3422,6 +3422,1167 @@
             "situation_isOnTheWay": false,
             "title": "Desayuno",
             "notes": "",
+            "category": "meal",
+            "subCategory": "breakfast",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Copos con leche deslactosada",
+                    "type": "",
+                    "ingredients": []
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [],
+            "datetime": "2019-10-16T20:09:19-0300",
+            "notes": "",
+            "title": "Colación",
+            "situation_isOnTheWay": false,
+            "category": "meal",
+            "subCategory": "snack",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [],
+            "situation_isStressed": false,
+            "drinks": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Agua|0,5",
+                    "type": "",
+                    "ingredients": []
+                }
+            ],
+            "datetime": "2019-10-16T18:00:06-0300",
+            "notes": "",
+            "title": "Bebida",
+            "situation_isOnTheWay": false,
+            "category": "meal",
+            "subCategory": "drink",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Galletitas de agua|7",
+                    "type": "",
+                    "ingredients": []
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [],
+            "datetime": "2019-10-16T16:44:08-0300",
+            "notes": "",
+            "title": "Colación",
+            "situation_isOnTheWay": false,
+            "category": "meal",
+            "subCategory": "snack",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Milanesas de peceto|2",
+                    "type": "",
+                    "ingredients": []
+                },
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Papa hervida con aceite",
+                    "type": "",
+                    "ingredients": []
+                },
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Banana",
+                    "type": "",
+                    "ingredients": []
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Agua",
+                    "type": "",
+                    "ingredients": []
+                }
+            ],
+            "datetime": "2019-10-16T13:39:07-0300",
+            "notes": "",
+            "title": "Almuerzo",
+            "situation_isOnTheWay": false,
+            "category": "meal",
+            "subCategory": "lunch",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [],
+            "situation_isStressed": false,
+            "drinks": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Agua|0,5",
+                    "type": "",
+                    "ingredients": []
+                }
+            ],
+            "datetime": "2019-10-16T12:00:45-0300",
+            "notes": "",
+            "title": "Bebida",
+            "situation_isOnTheWay": false,
+            "category": "meal",
+            "subCategory": "drink",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Banana",
+                    "type": "",
+                    "ingredients": []
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Te",
+                    "type": "",
+                    "ingredients": []
+                }
+            ],
+            "datetime": "2019-10-16T11:04:23-0300",
+            "notes": "",
+            "title": "Desayuno",
+            "situation_isOnTheWay": false,
+            "category": "meal",
+            "subCategory": "breakfast",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [],
+            "situation_isStressed": false,
+            "drinks": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Te",
+                    "type": "",
+                    "ingredients": []
+                }
+            ],
+            "datetime": "2019-10-16T09:00:34-0300",
+            "notes": "",
+            "title": "Desayuno",
+            "situation_isOnTheWay": false,
+            "category": "meal",
+            "subCategory": "breakfast",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Milanesas de peceto|2",
+                    "type": "",
+                    "ingredients": []
+                },
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Fideos con berenjena zanahoria y champignones",
+                    "type": "",
+                    "ingredients": []
+                },
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Gelatina",
+                    "type": "",
+                    "ingredients": []
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Agua",
+                    "type": "",
+                    "ingredients": []
+                }
+            ],
+            "datetime": "2019-10-15T22:47:20-0300",
+            "notes": "",
+            "title": "Cena",
+            "situation_isOnTheWay": false,
+            "category": "meal",
+            "subCategory": "dinner",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [],
+            "situation_isStressed": false,
+            "drinks": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Agua|0,75",
+                    "type": "",
+                    "ingredients": []
+                }
+            ],
+            "datetime": "2019-10-15T20:12:55-0300",
+            "notes": "",
+            "title": "Bebida",
+            "situation_isOnTheWay": false,
+            "category": "meal",
+            "subCategory": "drink",
+            "situation_isCalmly": false
+        },
+        {
+            "category": "miscellaneous",
+            "title": "Zumba",
+            "notes": "",
+            "icon": 1,
+            "datetime": "2019-10-15T18:11:22-0300"
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Copos con leche deslactosada",
+                    "type": "",
+                    "ingredients": []
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [],
+            "datetime": "2019-10-15T18:11:16-0300",
+            "notes": "",
+            "title": "Colación",
+            "situation_isOnTheWay": false,
+            "category": "meal",
+            "subCategory": "snack",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Milanesas de pollo|1,5",
+                    "type": "",
+                    "ingredients": []
+                },
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Papa hervida en el microondas con queso blanco|0,5",
+                    "type": "",
+                    "ingredients": []
+                },
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Ensalada de tomate y palta",
+                    "type": "",
+                    "ingredients": []
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Agua",
+                    "type": "",
+                    "ingredients": []
+                }
+            ],
+            "datetime": "2019-10-15T14:49:46-0300",
+            "notes": "",
+            "title": "Almuerzo",
+            "situation_isOnTheWay": false,
+            "category": "meal",
+            "subCategory": "lunch",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [],
+            "situation_isStressed": false,
+            "drinks": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Te",
+                    "type": "",
+                    "ingredients": []
+                }
+            ],
+            "datetime": "2019-10-15T10:05:55-0300",
+            "notes": "",
+            "title": "Desayuno",
+            "situation_isOnTheWay": false,
+            "category": "meal",
+            "subCategory": "breakfast",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Milanesas de pollo",
+                    "type": "",
+                    "ingredients": []
+                },
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Zapallito rellenos de zanahoria, berenjena, champignones y queso port salut",
+                    "type": "",
+                    "ingredients": [
+                        {
+                            "title": "Zanahoria"
+                        },
+                        {
+                            "title": "Berenjena"
+                        },
+                        {
+                            "title": "Champignones"
+                        },
+                        {
+                            "title": "Queso port salut"
+                        }
+                    ]
+                },
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Gelatina",
+                    "type": "",
+                    "ingredients": []
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Agua",
+                    "type": "",
+                    "ingredients": []
+                }
+            ],
+            "datetime": "2019-10-14T23:16:30-0300",
+            "notes": "",
+            "title": "Cena",
+            "situation_isOnTheWay": false,
+            "category": "meal",
+            "subCategory": "dinner",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Galletitas de agua con queso blanco|3",
+                    "type": "",
+                    "ingredients": []
+                },
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Banana",
+                    "type": "",
+                    "ingredients": []
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [],
+            "datetime": "2019-10-14T19:28:39-0300",
+            "notes": "",
+            "title": "Colación",
+            "situation_isOnTheWay": false,
+            "category": "meal",
+            "subCategory": "snack",
+            "situation_isCalmly": false
+        },
+        {
+            "category": "miscellaneous",
+            "title": "Yoga",
+            "notes": "",
+            "icon": 1,
+            "datetime": "2019-10-14T18:00:11-0300"
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Copos con leche deslactosada",
+                    "type": "",
+                    "ingredients": []
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [],
+            "datetime": "2019-10-14T16:33:14-0300",
+            "notes": "",
+            "title": "Colación",
+            "situation_isOnTheWay": false,
+            "category": "meal",
+            "subCategory": "snack",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Polenta con vegetales con crema (tomate, champignones, queso, zanahoria, zapallito)",
+                    "type": "",
+                    "ingredients": [
+                        {
+                            "title": "Tomate"
+                        },
+                        {
+                            "title": "Champignones"
+                        },
+                        {
+                            "title": "Queso"
+                        },
+                        {
+                            "title": "Zanahoria"
+                        },
+                        {
+                            "title": "Zapallito"
+                        }
+                    ]
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Agua",
+                    "type": "",
+                    "ingredients": []
+                }
+            ],
+            "datetime": "2019-10-14T14:11:15-0300",
+            "notes": "",
+            "title": "Almuerzo",
+            "situation_isOnTheWay": false,
+            "category": "meal",
+            "subCategory": "lunch",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [],
+            "situation_isStressed": false,
+            "drinks": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Te",
+                    "type": "",
+                    "ingredients": []
+                }
+            ],
+            "datetime": "2019-10-14T00:15:59-0300",
+            "notes": "",
+            "title": "Bebida",
+            "situation_isOnTheWay": false,
+            "category": "meal",
+            "subCategory": "drink",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Banana",
+                    "type": "",
+                    "ingredients": []
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [],
+            "datetime": "2019-10-14T00:01:23-0300",
+            "notes": "",
+            "title": "Colación",
+            "situation_isOnTheWay": false,
+            "category": "meal",
+            "subCategory": "snack",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Torta|0,5",
+                    "type": "",
+                    "ingredients": []
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [],
+            "datetime": "2019-10-13T23:00:52-0300",
+            "notes": "",
+            "title": "Colación",
+            "situation_isOnTheWay": false,
+            "category": "meal",
+            "subCategory": "snack",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [],
+            "situation_isStressed": false,
+            "drinks": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Cerveza|1",
+                    "type": "",
+                    "ingredients": []
+                }
+            ],
+            "datetime": "2019-10-13T19:28:59-0300",
+            "notes": "",
+            "title": "Bebida",
+            "situation_isOnTheWay": false,
+            "category": "meal",
+            "subCategory": "drink",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Empanadas de carne|1",
+                    "type": "",
+                    "ingredients": []
+                },
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Milanesas de pollo fritas",
+                    "type": "",
+                    "ingredients": []
+                },
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Papas fritas",
+                    "type": "",
+                    "ingredients": []
+                },
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Torta",
+                    "type": "",
+                    "ingredients": []
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Coca",
+                    "type": "",
+                    "ingredients": []
+                }
+            ],
+            "datetime": "2019-10-13T14:35:52-0300",
+            "notes": "",
+            "title": "Almuerzo",
+            "situation_isOnTheWay": false,
+            "category": "meal",
+            "subCategory": "lunch",
+            "situation_isCalmly": false
+        },
+        {
+            "category": "miscellaneous",
+            "title": "Cumpleaños",
+            "notes": "",
+            "icon": 0,
+            "datetime": "2019-10-13T13:30:02-0300"
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Banana",
+                    "type": "",
+                    "ingredients": []
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [],
+            "datetime": "2019-10-13T12:56:47-0300",
+            "notes": "",
+            "title": "Colación",
+            "situation_isOnTheWay": false,
+            "category": "meal",
+            "subCategory": "snack",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [],
+            "situation_isStressed": false,
+            "drinks": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Te",
+                    "type": "",
+                    "ingredients": []
+                }
+            ],
+            "datetime": "2019-10-13T09:37:43-0300",
+            "notes": "",
+            "title": "Desayuno",
+            "situation_isOnTheWay": false,
+            "category": "meal",
+            "subCategory": "breakfast",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Kitkat mini",
+                    "type": "",
+                    "ingredients": []
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [],
+            "datetime": "2019-10-13T01:58:00-0300",
+            "notes": "",
+            "title": "Colación",
+            "situation_isOnTheWay": false,
+            "category": "meal",
+            "subCategory": "snack",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [],
+            "situation_isStressed": false,
+            "drinks": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Cerveza|3",
+                    "type": "",
+                    "ingredients": []
+                }
+            ],
+            "datetime": "2019-10-13T01:05:14-0300",
+            "notes": "",
+            "title": "Bebida",
+            "situation_isOnTheWay": false,
+            "category": "meal",
+            "subCategory": "drink",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [],
+            "situation_isStressed": false,
+            "drinks": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Agua|0,5",
+                    "type": "",
+                    "ingredients": []
+                }
+            ],
+            "datetime": "2019-10-12T22:59:35-0300",
+            "notes": "",
+            "title": "Bebida",
+            "situation_isOnTheWay": false,
+            "category": "meal",
+            "subCategory": "drink",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Pizza con berenjena, zuchini, zanahoria|2",
+                    "type": "",
+                    "ingredients": [
+                        {
+                            "title": "Berenjena"
+                        },
+                        {
+                            "title": "Zuchini"
+                        },
+                        {
+                            "title": "zanahoria"
+                        }
+                    ]
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [],
+            "datetime": "2019-10-12T22:58:58-0300",
+            "notes": "",
+            "title": "Cena",
+            "situation_isOnTheWay": false,
+            "category": "meal",
+            "subCategory": "dinner",
+            "situation_isCalmly": false
+        },
+        {
+            "category": "miscellaneous",
+            "title": "Cumpleaños",
+            "notes": "",
+            "icon": 0,
+            "datetime": "2019-10-12T21:00:42-0300"
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Fideos con berenjena, zanahoria, champignones y queso blanco",
+                    "type": "",
+                    "ingredients": [
+                        {
+                            "title": "Berenjena"
+                        },
+                        {
+                            "title": "Zanajoria"
+                        },
+                        {
+                            "title": "Champignones"
+                        },
+                        {
+                            "title": "Queso blanco"
+                        }
+                    ]
+                },
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Barrita kinder",
+                    "type": "",
+                    "ingredients": []
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Agua",
+                    "type": "",
+                    "ingredients": []
+                }
+            ],
+            "datetime": "2019-10-12T14:55:10-0300",
+            "notes": "",
+            "title": "Almuerzo",
+            "situation_isOnTheWay": false,
+            "category": "meal",
+            "subCategory": "lunch",
+            "situation_isCalmly": false
+        },
+        {
+            "category": "miscellaneous",
+            "title": "Pilates",
+            "notes": "",
+            "icon": 1,
+            "datetime": "2019-10-12T12:00:29-0300"
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Banana",
+                    "type": "",
+                    "ingredients": []
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [],
+            "datetime": "2019-10-12T11:16:39-0300",
+            "notes": "",
+            "title": "Colación",
+            "situation_isOnTheWay": false,
+            "category": "meal",
+            "subCategory": "snack",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [],
+            "situation_isStressed": false,
+            "drinks": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Te",
+                    "type": "",
+                    "ingredients": []
+                }
+            ],
+            "datetime": "2019-10-12T09:32:12-0300",
+            "notes": "",
+            "title": "Desayuno",
+            "situation_isOnTheWay": false,
+            "category": "meal",
+            "subCategory": "breakfast",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Milanesas de peceto",
+                    "type": "",
+                    "ingredients": []
+                },
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Zapallitos rellenos de zanahoria, berenjena, morron rojo, queso port salut light, zapallito",
+                    "type": "",
+                    "ingredients": [
+                        {
+                            "title": "Zanahoria"
+                        },
+                        {
+                            "title": "Berenjena"
+                        },
+                        {
+                            "title": "Morron rojo"
+                        },
+                        {
+                            "title": "Queso port salut light"
+                        },
+                        {
+                            "title": "Zapallito"
+                        }
+                    ]
+                },
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Helado|0,15",
+                    "type": "",
+                    "ingredients": []
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Agua",
+                    "type": "",
+                    "ingredients": []
+                }
+            ],
+            "datetime": "2019-10-11T22:17:27-0300",
+            "notes": "",
+            "title": "Cena",
+            "situation_isOnTheWay": false,
+            "category": "meal",
+            "subCategory": "dinner",
+            "situation_isCalmly": true
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Copos con leche deslactosada",
+                    "type": "",
+                    "ingredients": []
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [],
+            "datetime": "2019-10-11T16:30:06-0300",
+            "notes": "",
+            "title": "Colación",
+            "situation_isOnTheWay": false,
+            "category": "meal",
+            "subCategory": "snack",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Costillitas de cerdo",
+                    "type": "",
+                    "ingredients": []
+                },
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "papa al microondas con queso blanco|0,5",
+                    "type": "",
+                    "ingredients": []
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Agua|0,5",
+                    "type": "",
+                    "ingredients": []
+                }
+            ],
+            "datetime": "2019-10-11T12:55:26-0300",
+            "notes": "",
+            "title": "Almuerzo",
+            "situation_isOnTheWay": false,
+            "category": "meal",
+            "subCategory": "lunch",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Galletitas de agua - 4",
+                    "type": "",
+                    "ingredients": []
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Te",
+                    "type": "",
+                    "ingredients": []
+                }
+            ],
+            "datetime": "2019-10-11T10:24:10-0300",
+            "notes": "",
+            "title": "Desayuno",
+            "situation_isOnTheWay": false,
+            "category": "meal",
+            "subCategory": "breakfast",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [],
+            "situation_isStressed": false,
+            "drinks": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Te",
+                    "type": "",
+                    "ingredients": []
+                }
+            ],
+            "datetime": "2019-10-11T08:20:00-0300",
+            "notes": "",
+            "title": "Desayuno",
+            "situation_isOnTheWay": false,
+            "category": "meal",
+            "subCategory": "breakfast",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Tita",
+                    "type": "",
+                    "ingredients": []
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [],
+            "datetime": "2019-10-11T00:17:40-0300",
+            "notes": "",
+            "title": "Colación",
+            "situation_isOnTheWay": false,
+            "category": "meal",
+            "subCategory": "snack",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Costillitas de cerdo",
+                    "type": "",
+                    "ingredients": []
+                },
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Papa hervida en el microondas con queso blanco",
+                    "type": "",
+                    "ingredients": []
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Agua",
+                    "type": "",
+                    "ingredients": []
+                }
+            ],
+            "datetime": "2019-10-10T22:29:14-0300",
+            "notes": "",
+            "title": "Cena",
+            "situation_isOnTheWay": false,
+            "category": "meal",
+            "subCategory": "dinner",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Banana",
+                    "type": "",
+                    "ingredients": []
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [],
+            "datetime": "2019-10-10T20:00:46-0300",
+            "notes": "",
+            "title": "Colación",
+            "situation_isOnTheWay": false,
+            "category": "meal",
+            "subCategory": "snack",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Arroz yamani con verduras (berenjena, zapallito, zanahoria, morron rojo) y queso port salut",
+                    "type": "",
+                    "ingredients": []
+                },
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Milanesas de pollo",
+                    "type": "",
+                    "ingredients": []
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Agua",
+                    "type": "",
+                    "ingredients": []
+                }
+            ],
+            "datetime": "2019-10-10T13:55:59-0300",
+            "notes": "",
+            "title": "Almuerzo",
+            "situation_isOnTheWay": false,
+            "category": "meal",
+            "subCategory": "lunch",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Banana",
+                    "type": "",
+                    "ingredients": []
+                }
+            ],
+            "situation_isStressed": false,
+            "drinks": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Te",
+                    "type": "",
+                    "ingredients": []
+                }
+            ],
+            "datetime": "2019-10-10T09:58:18-0300",
+            "notes": "",
+            "title": "Desayuno",
+            "situation_isOnTheWay": false,
+            "category": "meal",
+            "subCategory": "breakfast",
+            "situation_isCalmly": false
+        },
+        {
+            "dishes": [],
+            "situation_isStressed": false,
+            "drinks": [
+                {
+                    "amount": 0,
+                    "amount_unit": "",
+                    "title": "Te",
+                    "type": "",
+                    "ingredients": []
+                }
+            ],
+            "datetime": "2019-10-10T08:15:27-0300",
+            "notes": "",
+            "title": "Desayuno",
+            "situation_isOnTheWay": false,
             "category": "meal",
             "subCategory": "breakfast",
             "situation_isCalmly": false
