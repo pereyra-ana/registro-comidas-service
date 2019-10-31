@@ -1,14 +1,15 @@
 let tiposAlimentos = {
     "CEREALES": [
-        "Almidón de maiz",
-        "Fécula de maiz",
-        "Semola",
+        "almidon de maiz",
+        "fecula de maiz",
+        "semola",
         "semolin",
         "polenta",
-        "Arroz blanco",
+        "arroz blanco",
         "avena",
         "fideos",
-        "copos"
+        "copos",
+        "sopa de letras"
     ],
     "SALSAS": [
         "tuco casero",
@@ -17,6 +18,7 @@ let tiposAlimentos = {
     "PAN": [
         "tostadas",
         "galletitas de agua",
+        "bizcochitos 9deoro de arroz",
         "grisines"
     ],
     "HORTALIZAS": [
@@ -29,9 +31,11 @@ let tiposAlimentos = {
         "berenjena",
         "batata",
         "papa",
+        "papines",
         "alcaucil",
         "palmito",
-        "caldo de verduras"
+        "caldo de verduras",
+        "calabaza"
     ],
     "FRUTAS": [
         "banana",
@@ -64,7 +68,8 @@ let tiposAlimentos = {
     ],
     "QUESOS": [
         "queso port salut",
-        "queso blanco"
+        "queso blanco",
+        "queso cremoso"
     ],
     "LACTEOS": [
         "leche deslactosada"
@@ -78,7 +83,9 @@ let tiposAlimentos = {
         "agua",
         "jugo",
         "cafe descafeinado",
-        "mate cocido"
+        "mate cocido",
+        "te verde",
+        "cafe descafeinado con leche deslactosada"
     ]
 };
 
@@ -118,9 +125,6 @@ function getDataForChartType(chartType, data) {
             let hashValues = {};
 
             let dataFood = data.filter(d => d.tipo === "comida" || d.tipo === "bebida")
-            dataFood.forEach(a => {
-                console.log(a.valor)
-            });
 
             for (let i = 0; i < dataFood.length; i++) {
                 const registro = dataFood[i];
@@ -130,31 +134,31 @@ function getDataForChartType(chartType, data) {
                         const alimento = tiposAlimentos[tipoAlimento][j];
 
                         if (isValueInList(alimento, registro) &&
-                            registro.valor.indexOf("frito") == (-1) &&
-                            registro.valor.indexOf("frita") == (-1) &&
+                            registro.valor.toLowerCase().indexOf("frito") == (-1) &&
+                            registro.valor.toLowerCase().indexOf("frita") == (-1) &&
                             !(tipoAlimento in hashResultados)) {
                             hashResultados[tipoAlimento] = 1;
                             alimentoPermitidoInRegistro = true;
 
                             if (!(tipoAlimento in hashValues)) {
-                                hashValues[tipoAlimento] = [registro.valor]
+                                hashValues[tipoAlimento] = [registro.valor.toLowerCase()]
                             } else {
-                                if (hashValues[tipoAlimento].indexOf(registro.valor) == (-1))
-                                    hashValues[tipoAlimento].push(registro.valor);
+                                if (hashValues[tipoAlimento].indexOf(registro.valor.toLowerCase()) == (-1))
+                                    hashValues[tipoAlimento].push(registro.valor.toLowerCase());
                             }
 
                         } else if (isValueInList(alimento, registro) &&
-                            registro.valor.indexOf("frito") == (-1) &&
-                            registro.valor.indexOf("frita") == (-1) &&
+                            registro.valor.toLowerCase().indexOf("frito") == (-1) &&
+                            registro.valor.toLowerCase().indexOf("frita") == (-1) &&
                             (tipoAlimento in hashResultados)) {
                             hashResultados[tipoAlimento] = hashResultados[tipoAlimento] + 1;
                             alimentoPermitidoInRegistro = true
 
                             if (!(tipoAlimento in hashValues)) {
-                                hashValues[tipoAlimento] = [registro.valor]
+                                hashValues[tipoAlimento] = [registro.valor.toLowerCase()]
                             } else {
-                                if (hashValues[tipoAlimento].indexOf(registro.valor) == (-1))
-                                    hashValues[tipoAlimento].push(registro.valor);
+                                if (hashValues[tipoAlimento].indexOf(registro.valor.toLowerCase()) == (-1))
+                                    hashValues[tipoAlimento].push(registro.valor.toLowerCase());
                             }
                         }
                     }
@@ -182,6 +186,10 @@ function getDataForChartType(chartType, data) {
             dataForChart["labels"] = Object.keys(hashResultados);
             dataForChart["amounts"] = Object.values(hashResultados);
             dataForChart["values"] = hashValues;
+            break;
+        case 'permitidosVsNo':
+            // dataForChart["labels"] = ["hola"];
+            // dataForChart["amounts"] = [1]
             break;
         default:
             break
