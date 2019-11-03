@@ -14,7 +14,30 @@ async function addRegistries(registries) {
     return resp;
 }
 
+async function createRegistry(registries) {
+    // let r = registroAssembler.assemblyRegistry(registries);
+    resp = await registries.forEach(r => {
+        registrosDao.createRegistry(r);    
+    });    
+    return resp;
+}
+
+async function updateRegistry(registry) {
+    // let r = registroAssembler.assemblyRegistry(registries);
+    resp = await registrosDao.updateRegistry(registry)
+    return resp;
+}
+
+async function deleteRegistry(id) {
+    // let r = registroAssembler.assemblyRegistry(registries);
+    resp = await registrosDao.deleteRegistry(id)
+    return resp;
+}
+
 module.exports = {
     getAll,
-    addRegistries
+    addRegistries,
+    createRegistry,
+    updateRegistry,
+    deleteRegistry
 }

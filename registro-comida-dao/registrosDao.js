@@ -61,7 +61,36 @@ async function addRegistries(registries) {
     });
 }
 
+async function createRegistry(registry) {
+    let writeRegistry = new MRegistries(registry);
+    console.log("Insertando registro: ");
+    console.log(writeRegistry);
+    return await writeRegistry.save((err) => {
+        if (err) return console.log("Error en escritura de registro");
+        console.log("Escritura exitosa!");
+    })
+}
+
+async function updateRegistry(registry) {
+    console.log("Actualizando registro: ");
+    return await MRegistries.update({ '_id': registry._id }, registry, function (err, raw) {
+        if (err) return handleError(err);
+        console.log('The raw response from Mongo was ', raw);
+    });
+}
+
+async function deleteRegistry(id) {
+    console.log("Borrando registro: ");
+    return await MRegistries.findByIdAndDelete({ '_id': id }, function (err) {
+        if (err) return console.log("Error en escritura de registro");
+        console.log("Escritura exitosa!");
+    })
+}
+
 module.exports = {
     getAll,
-    addRegistries
+    addRegistries,
+    createRegistry,
+    updateRegistry,
+    deleteRegistry
 }
