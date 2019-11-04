@@ -10,7 +10,8 @@ const sRegistries = new Schema({ // creo schema
     tipo: String,
     valor: String,
     cantidad: Number,
-    intensidad: Number
+    intensidad: Number,
+    tipoEvento: String
 });
 
 const cRegistries = 'registries'; // creo la coleccion
