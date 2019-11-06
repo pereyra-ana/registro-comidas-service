@@ -11,6 +11,9 @@ function assemblyRegistry(jsonRegistros) {
                     newRegistry.valor = d.title.split("|")[0];
                     newRegistry.datetime = r.datetime;
                     newRegistry.cantidad = d.title.split("|")[1] ? d.title.split("|")[1] : 1;
+
+                    newRegistry.tipoEvento = r.title;
+
                     registryList.push(newRegistry);
                 });
             }
@@ -22,6 +25,9 @@ function assemblyRegistry(jsonRegistros) {
                     newRegistry.valor = d.title.split("|")[0];
                     newRegistry.datetime = r.datetime;
                     newRegistry.cantidad = d.title.split("|")[1] ? d.title.split("|")[1] : 1;
+
+                    newRegistry.tipoEvento = r.title;
+
                     registryList.push(newRegistry);
                 });
             }
@@ -32,12 +38,18 @@ function assemblyRegistry(jsonRegistros) {
                     newRegistry.tipo = 'misceláneo';
                     newRegistry.valor = r.title;
                     newRegistry.datetime = r.datetime;
+
+                    newRegistry.tipoEvento = 'actividad física'
+
                     registryList.push(newRegistry)
                 }
                 if (r[k] === 'symptom') {
                     newRegistry.tipo = 'síntoma';
                     newRegistry.valor = r.title;
                     newRegistry.datetime = r.datetime;
+
+                    newRegistry.tipoEvento = 'síntoma';
+                    
                     registryList.push(newRegistry)
                 }
             }

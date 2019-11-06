@@ -30,17 +30,34 @@ function connectDB() {
 connectDB();
 
 // dao methods
-async function getAll(start, end) {
-    if (start && end) {
-        return await MRegistries.find({ datetime: { $gte: start, $lte: end } }, (err, registries) => {
-            if (err) throw new Error(err);
-            console.log("===> Consulta todos");
-            // registries.forEach(u => {
-            //     console.log(u.datetime)
-            // })
-        }).sort({ datetime: 1 })
+async function getAll(start, end, valor) {
+    let query = {
+    };
+    if (start) {
+        query["datetime"] = {
+            $gte: start
+        }
     }
-    return await MRegistries.find({}, (err, registries) => {
+    if (end) {
+        if (query["datetime"]) {
+            query["datetime"] = {
+                $gte: start,
+                $lte: end
+            }
+        } else {
+            query["datetime"] = {
+                $lte: end
+            }
+        }
+    }
+    if (valor) {
+        query["valor"] = {
+            $regex: valor, $options: "i"
+        }
+
+    }
+
+    return await MRegistries.find(query, (err, registries) => {
         if (err) throw new Error(err);
         console.log("===> Consulta todos");
         // registries.forEach(u => {

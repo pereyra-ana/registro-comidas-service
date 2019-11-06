@@ -1,9 +1,9 @@
 let registrosDao = require('../registro-comida-dao/registrosDao');
 let registroAssembler = require('./assemblers/registro-assembler');
 
-async function getAll(start, end) {
+async function getAll(start, end, valor) {
     console.log("start:" + start + " end: " + end);
-    let all = await registrosDao.getAll(start, end)
+    let all = await registrosDao.getAll(start, end, valor)
     // console.log(all);
     return all;
 }
