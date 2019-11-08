@@ -216,7 +216,6 @@ function getDataForChartType(chartType, data) {
                             registro.valor.toLowerCase().indexOf("frito") == (-1) &&
                             registro.valor.toLowerCase().indexOf("frita") == (-1)) {
                             alimentoPermitidoInRegistro = true;
-                            countPermitidos += 1;
                             if (barChartData[0].data[indexLabel]) {
                                 barChartData[0].data[indexLabel] += 1
                             } else {
