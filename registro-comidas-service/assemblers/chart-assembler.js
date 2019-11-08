@@ -9,6 +9,7 @@ let tiposAlimentos = {
         "avena",
         "fideos",
         "copos",
+        "cereales de arroz",
         "sopa de letras"
     ],
     "SALSAS": [
@@ -35,7 +36,8 @@ let tiposAlimentos = {
         "alcaucil",
         "palmito",
         "caldo de verduras",
-        "calabaza"
+        "calabaza",
+        "remolacha"
     ],
     "FRUTAS": [
         "banana",
@@ -89,6 +91,13 @@ let tiposAlimentos = {
     ]
 };
 
+function getWeekOfTheYear(date) {
+    var d = new Date(+date);
+    d.setHours(0, 0, 0);
+    d.setDate(d.getDate() + 4 - (d.getDay() || 7));
+    return Math.ceil((((d - new Date(d.getFullYear(), 0, 1)) / 8.64e7) + 1) / 7);
+}
+
 function getDataForChartType(chartType, data) {
     let dataForChart = {};
 
@@ -104,17 +113,9 @@ function getDataForChartType(chartType, data) {
                     let index = dataForChart["labels"].indexOf(e.valor);
                     if (index === -1) {
                         dataForChart["labels"].push(e.valor);
-                        // if (e.cantidad != null && e.cantidad != undefined) {
-                        //     dataForChart["amounts"].push(e.cantidad);
-                        // } else {
                         dataForChart["amounts"].push(1);
-                        // }
                     } else {
-                        // if (e.cantidad != null && e.cantidad != undefined) {
-                        //     dataForChart["amounts"][index] = dataForChart["amounts"][index] + e.cantidad;
-                        // } else {
                         dataForChart["amounts"][index] = dataForChart["amounts"][index] + 1;
-                        // }
                     }
                 }
             }
@@ -188,8 +189,58 @@ function getDataForChartType(chartType, data) {
             dataForChart["values"] = hashValues;
             break;
         case 'permitidosVsNo':
-            // dataForChart["labels"] = ["hola"];
-            // dataForChart["amounts"] = [1]
+            let barChartLabels = [];
+            let barChartData = [
+                { data: [], label: 'Permitidos' },
+                { data: [], label: 'No Permitidos' }
+            ];
+
+            let dataFood2 = data.filter(d => d.tipo === "comida" || d.tipo === "bebida")
+
+            for (let i = 0; i < dataFood2.length; i++) {
+                const registro = dataFood2[i];
+
+                let week = getWeekOfTheYear(registro.datetime);
+                let indexLabel = barChartLabels.indexOf("Semana " + week);
+                if (indexLabel == -1) {
+                    barChartLabels.push("Semana " + week);
+                    indexLabel = barChartLabels.length - 1;
+                }
+
+                let alimentoPermitidoInRegistro = false;
+                for (let tipoAlimento in tiposAlimentos) {
+                    for (let j = 0; j < tiposAlimentos[tipoAlimento].length; j++) {
+                        const alimento = tiposAlimentos[tipoAlimento][j];
+
+                        if (isValueInList(alimento, registro) &&
+                            registro.valor.toLowerCase().indexOf("frito") == (-1) &&
+                            registro.valor.toLowerCase().indexOf("frita") == (-1)) {
+                            alimentoPermitidoInRegistro = true;
+                            countPermitidos += 1;
+                            if (barChartData[0].data[indexLabel]) {
+                                barChartData[0].data[indexLabel] += 1
+                            } else {
+                                barChartData[0].data[indexLabel] = 1
+                                if (!barChartData[1].data[indexLabel])
+                                    barChartData[1].data[indexLabel] = 0
+                            }
+                            break;
+                        }
+                    }
+                }
+                if (!alimentoPermitidoInRegistro) {
+                    if (barChartData[1].data[indexLabel]) {
+                        barChartData[1].data[indexLabel] += 1
+                    } else {
+                        barChartData[1].data[indexLabel] = 1
+                        if (!barChartData[0].data[indexLabel])
+                            barChartData[0].data[indexLabel] = 0
+                    }
+                }
+            }
+
+            dataForChart["labels"] = barChartLabels;
+            dataForChart["amounts"] = barChartData;
             break;
         default:
             break
