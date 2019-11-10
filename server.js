@@ -1,6 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
+const cron = require('./registro-comidas-service/cronJobService');
 
 const port = process.env.app_port || 3000;
 
@@ -24,6 +25,9 @@ app.use('/registries', registriesApi);
 
 var chartsApi = require('./registro-comidas-api/routes/chartsRestService');
 app.use('/charts', chartsApi);
+
+var testApi = require('./registro-comidas-api/testRest');
+app.use('/test', testApi);
 
 app.get('/*', function (req, res) { // cuando no encuentra ninguna ruta que coincida, cae en esta
     res.send('Mmm... What are you looking for?');

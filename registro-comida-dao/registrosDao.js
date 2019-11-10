@@ -59,9 +59,9 @@ async function getAll(start, end, valor) {
 
     return await MRegistries.find(query, (err, registries) => {
         if (err) throw new Error(err);
-        console.log("===> Consulta todos");
+        // console.log("===> Consulta todos");
         // registries.forEach(u => {
-        //     console.log(u.datetime)
+        //     console.log(u)
         // })
     }).sort({ datetime: 1 })
 }

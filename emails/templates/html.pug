@@ -1,0 +1,40 @@
+-function prettyDate(dateString){
+    //if it's already a date object and not a string you don't need this line:
+    -var date = new Date(dateString);
+    -var d = date.getDate();
+    -var monthNames = [ "Jan", "Feb", "Mar", "Apr", "May", "Jun","Jul", "Aug", "Sep", "Oct", "Nov", "Dec" ];
+    -var m = monthNames[date.getMonth()];
+    -var y = date.getFullYear();
+    -var h = date.getHours();
+    -var min = date.getMinutes();
+    -return d+' '+m+' '+y + ' ' + h + ":" + min;
+-}
+
+p Hola #{name},
+p Estos son los resultados semanales de tu registro de comidas.
+
+p Período: #{prettyDate(startDate)} al #{prettyDate(endDate)}
+
+p Porcentajes por tipo de alimentos:
+- var val = values[0]
+    ul
+    each v, key in val
+        li= key + ":" 
+        ul
+            each vv in val[key]
+                li=vv
+
+p Porcentaje de comidas permitidas vs no permitidas:
+- var val = values[1]
+- var label = val['labels'][val['labels'].length - 1]
+p #{label}
+- var valdataPerm = val['amounts'][0].data[val['amounts'][0].data.length - 1]
+- var valdataNoPerm = val['amounts'][1].data[val['amounts'][1].data.length - 1]
+p Permitidos: #{valdataPerm} (#{valdataPerm * 100 / (valdataPerm + valdataNoPerm)}%)
+p NO Permitidos: #{valdataNoPerm} (#{valdataNoPerm * 100 / (valdataPerm + valdataNoPerm)}%)
+
+p Registro de la semana:
+- var valList = values[2]
+    ul
+    each v in valList
+        li #{prettyDate(v.datetime)} - #{v.valor}
