@@ -10,7 +10,7 @@ async function getValuesForEmail() {
     let aux = await chartService.getData(startDate, endDate, 'tiposAlimentosVsTotal');
     let aux2 = await chartService.getData(startDate, endDate, 'permitidosVsNo');
     let allValues = await registryService.getAll(startDate, endDate, null);
-    console.log(allValues)
+
     return [aux["values"], aux2, allValues]
 }
 
