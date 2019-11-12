@@ -1,7 +1,8 @@
 const cron = require('node-cron');
-var emailService = require('./emailService');
+const emailService = require('./emailService');
+const config = require('../app.config')
 
-var task = cron.schedule('59 2 * * 1', function () {
+var task = cron.schedule(config.cron.frequency, function () {
     console.log('Running Cron Job');
     emailService.sendEmail();
 });

@@ -16,5 +16,9 @@ config.email.pass = '';
 config.email.form = "fr@info.com.ar";
 config.email.subject = "Registro semanal de Food Registry";
 config.email.to = "pereyra.ana12@gmail.com";
-config.email.name = 'Ana :)'
+config.email.name = 'Ana'
+
+config.cron = {};
+config.cron.frequency = '59 2 * * 1';
+
 module.exports = config
