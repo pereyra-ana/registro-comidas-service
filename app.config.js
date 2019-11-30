@@ -19,6 +19,7 @@ config.email.to = "pereyra.ana12@gmail.com";
 config.email.name = 'Ana'
 
 config.cron = {};
-config.cron.frequency = '59 2 * * 1';
+config.cron.emailFrequency = '59 2 * * 1';
+config.cron.notificationFrequency = '*/1 * * * *';
 
 module.exports = config

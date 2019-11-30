@@ -26,6 +26,9 @@ app.use('/registries', registriesApi);
 var chartsApi = require('./registro-comidas-api/routes/chartsRestService');
 app.use('/charts', chartsApi);
 
+var notificationApi = require('./registro-comidas-api/routes/notificationRestService');
+app.use('/notifications', notificationApi);
+
 var testApi = require('./registro-comidas-api/testRest');
 app.use('/test', testApi);
 
