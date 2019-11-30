@@ -13,15 +13,17 @@ var taskNotification = cron.schedule(config.cron.notificationFrequency, async fu
     console.log('Running Cron Notif Job');
     var now = new Date();
     // if (11 < now.getHours() && now.getHours() < 23) {
-        let beginningOfToday = new Date();
-        beginningOfToday.setHours(0);
-        beginningOfToday.setMinutes(0);
-        beginningOfToday.setSeconds(0);
-        beginningOfToday.setMilliseconds(0)
+    let beginningOfToday = new Date();
+    beginningOfToday.setHours(0);
+    beginningOfToday.setMinutes(0);
+    beginningOfToday.setSeconds(0);
+    beginningOfToday.setMilliseconds(0)
 
-        let rs = await registryService.getAll(beginningOfToday, now, null);
+    let rs = await registryService.getAll(beginningOfToday, now, null);
 
-        let lastFood = null;
+    let lastFood = null;
+
+    if (rs.length > 0) {
         for (let index = rs.length - 1; index < rs.length; index--) {
             const element = rs[index];
             if (element.tipo === 'comida') {
@@ -41,6 +43,8 @@ var taskNotification = cron.schedule(config.cron.notificationFrequency, async fu
             console.log("No food eaten today");
             notifService.sendNewsletter();
         }
+    }
+
     // }
 });
 
