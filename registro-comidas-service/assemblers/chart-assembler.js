@@ -164,6 +164,80 @@ async function getDataForChartType(chartType, data) {
         dataForChart["amounts"] = barChartData;
         return dataForChart;
     }
+    else if (chartType === 'sintomas' || 'actividadFisica') {
+        let barChartLabels = [];
+        let barChartData;
+
+        let data3;
+        if (chartType === 'sintomas') {
+            data3 = data.filter(d => d.tipo.toLowerCase() === "síntoma");
+            barChartData = [
+                { data: [], label: 'Cantidad de Síntomas' }
+            ];
+        } else if (chartType === 'actividadFisica') {
+            data3 = data.filter(d => d.tipo.toLowerCase() === "actividad física");
+            barChartData = [
+                { data: [], label: 'Cantidad de Entrenamientos' }
+            ];
+        }
+
+        for (let i = 0; i < data3.length; i++) {
+            const registro = data3[i];
+
+            let week = getWeekOfTheYear(registro.datetime);
+            let indexLabel = barChartLabels.indexOf("Semana " + week);
+            if (indexLabel == -1) {
+                barChartLabels.push("Semana " + week);
+                indexLabel = barChartLabels.length - 1;
+            }
+
+            if (barChartData[0].data[indexLabel]) {
+                barChartData[0].data[indexLabel] += 1
+            } else {
+                barChartData[0].data[indexLabel] = 1
+            }
+        }
+
+        let aux = [];
+        let start = +barChartLabels[0].split(' ')[1];
+        for (let w = 0; w < barChartLabels.length; w++) {
+            const e = +barChartLabels[w].split(' ')[1];
+            console.log("start: " + start + " e: " + e);
+            if (e !== start) {
+                while (e !== start) {
+                    aux.push("Semana " + start + ": " + 0);
+
+                    if (start === 52) {
+                        start = 1;
+                    } else {
+                        start += 1;
+                    }
+                }
+            }
+            if (start === 52) {
+                start = 1;
+            } else {
+                start += 1;
+            }
+        }
+
+        for (let j = 0; j < aux.length; j++) {
+            const e = aux[j];
+            for (let k = 0; k < barChartLabels.length; k++) {
+                const a = barChartLabels[k];
+                if (+a.split(" ")[1] - 1 === (+(e.split(":")[0].split(" ")[1]))) {
+                    barChartLabels.splice(k + 1, 0, e.split(":")[0]);
+                    barChartData[0].data.splice(k + 1, 0, +e.split(":")[1].trim());
+                    break;
+                }
+            }
+        }
+
+        dataForChart["labels"] = barChartLabels;
+        dataForChart["amounts"] = barChartData;
+
+        return dataForChart;
+    }
 }
 
 function isValueInList(alimento, registro, tiposAlimentos) {

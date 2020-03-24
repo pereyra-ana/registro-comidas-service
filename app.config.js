@@ -2,7 +2,7 @@ let config = {};
 
 config.db = {};
 
-config.db.host = '54.91.59.54';
+config.db.host = '35.171.193.61';
 config.db.port = '27017';
 config.db.name = 'mydb';
 
