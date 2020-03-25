@@ -164,7 +164,7 @@ async function getDataForChartType(chartType, data) {
         dataForChart["amounts"] = barChartData;
         return dataForChart;
     }
-    else if (chartType === 'sintomas' || 'actividadFisica') {
+    else if (chartType === 'sintomas' || 'actividadFisica' || 'peso') {
         let barChartLabels = [];
         let barChartData;
 
@@ -179,6 +179,11 @@ async function getDataForChartType(chartType, data) {
             barChartData = [
                 { data: [], label: 'Cantidad de Entrenamientos' }
             ];
+        } else if (chartType === 'peso') {
+            data3 = data.filter(d => d.tipo.toLowerCase() === "peso");
+            barChartData = [
+                { data: [], label: 'Peso en kg' }
+            ];
         }
 
         for (let i = 0; i < data3.length; i++) {
@@ -191,46 +196,56 @@ async function getDataForChartType(chartType, data) {
                 indexLabel = barChartLabels.length - 1;
             }
 
-            if (barChartData[0].data[indexLabel]) {
-                barChartData[0].data[indexLabel] += 1
-            } else {
-                barChartData[0].data[indexLabel] = 1
+            if (chartType === 'sintomas' || chartType === 'actividadFisica') {
+                if (barChartData[0].data[indexLabel]) {
+                    barChartData[0].data[indexLabel] += 1
+                } else {
+                    barChartData[0].data[indexLabel] = 1
+                }
+            } else if (chartType === 'peso') {
+                barChartData[0].data[indexLabel] = +registro.valor;
             }
+
         }
 
-        let aux = [];
-        let start = +barChartLabels[0].split(' ')[1];
-        for (let w = 0; w < barChartLabels.length; w++) {
-            const e = +barChartLabels[w].split(' ')[1];
-            console.log("start: " + start + " e: " + e);
-            if (e !== start) {
-                while (e !== start) {
-                    aux.push("Semana " + start + ": " + 0);
+        if (chartType === 'sintomas' || chartType === 'actividadFisica') {
+            let aux = [];
+            if (barChartLabels[0]) {
+                let start = +barChartLabels[0].split(' ')[1];
+                for (let w = 0; w < barChartLabels.length; w++) {
+                    const e = +barChartLabels[w].split(' ')[1];
+                    // console.log("start: " + start + " e: " + e);
+                    if (e !== start) {
+                        while (e !== start) {
+                            aux.push("Semana " + start + ": " + 0);
 
+                            if (start === 52) {
+                                start = 1;
+                            } else {
+                                start += 1;
+                            }
+                        }
+                    }
                     if (start === 52) {
                         start = 1;
                     } else {
                         start += 1;
                     }
                 }
-            }
-            if (start === 52) {
-                start = 1;
-            } else {
-                start += 1;
-            }
-        }
 
-        for (let j = 0; j < aux.length; j++) {
-            const e = aux[j];
-            for (let k = 0; k < barChartLabels.length; k++) {
-                const a = barChartLabels[k];
-                if (+a.split(" ")[1] - 1 === (+(e.split(":")[0].split(" ")[1]))) {
-                    barChartLabels.splice(k + 1, 0, e.split(":")[0]);
-                    barChartData[0].data.splice(k + 1, 0, +e.split(":")[1].trim());
-                    break;
+                for (let j = 0; j < aux.length; j++) {
+                    const e = aux[j];
+                    for (let k = 0; k < barChartLabels.length; k++) {
+                        const a = barChartLabels[k];
+                        if (+a.split(" ")[1] - 1 === (+(e.split(":")[0].split(" ")[1]))) {
+                            barChartLabels.splice(k + 1, 0, e.split(":")[0]);
+                            barChartData[0].data.splice(k + 1, 0, +e.split(":")[1].trim());
+                            break;
+                        }
+                    }
                 }
             }
+
         }
 
         dataForChart["labels"] = barChartLabels;
